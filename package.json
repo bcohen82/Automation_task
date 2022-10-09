@@ -1,0 +1,19 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "playwright test --config=playwright.config.ts --project=Chromium --headed"
+  },
+  "keywords": [],
+  "author": "Boaz Cohen",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.0"
+  },
+  "dependencies": {
+    "allure-playwright": "^2.0.0-beta.19",
+    "axios": "^1.1.2"
+  }
+}
