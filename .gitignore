@@ -6,3 +6,4 @@ example.spec.ts
 tests-examples
 allure-results
 package-lock.json
+jenkins.war
